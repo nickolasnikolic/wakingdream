@@ -43,7 +43,7 @@ $app->post('/home', function(){
 
   $stmtUserId = $db->prepare('INSERT INTO stories (title,text) VALUES (:title,:text);');
   $stmtUserId->bindParam( ':title', $title );
-  $stmtUserId->bindParam( ':location', $text );
+  $stmtUserId->bindParam( ':text', $text );
   $stmtUserId->execute();
 });
 

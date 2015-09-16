@@ -1,0 +1,23 @@
+<div  id="homeContainer">
+  <div class="col-lg-12 topBar">
+    <p>
+      <form>
+        <input type="text" id="hallucinationTitle"></input>
+        <textarea id="hallucinationText" placeholder="your hallucination"></textarea>
+        <button id="saveButton">save</button>
+      </form>
+    </p>
+  </div>
+  <div>
+    <ul id="jobListings">
+      <li ng-repeat="h in hData track by $index">
+        <div>
+          <h3 class="leadGeneration" data-spy='scroll' data-target="popover">
+            {{h.title}}
+          </h3>
+          <p>{{h.text}}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

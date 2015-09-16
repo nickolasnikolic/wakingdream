@@ -1,0 +1,174 @@
+
+*{
+  font-family: questa, serif;
+  letter-spacing: 0.1234em;
+}
+
+html{}
+
+body{
+  background: transparent;
+  background-image: url(../images/dog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  background-position: left top;
+}
+
+header{
+  margin: 0 auto;
+}
+
+header p{
+  font-size: 2em;
+}
+
+header div{
+  display: inline-block;
+  padding: 1em;
+  margin-left: 1em;
+}
+
+#logo{
+  position: relative;
+  left: 0.8em;
+  top: -0.35em;
+}
+
+#banner{
+  background-color: rgba(0,0,0,0.45);
+  color: #ccc;
+  padding: 0 15px;
+  margin: 0;
+}
+
+#popover{
+  background-color: rgba( 50, 50, 50, 0.5 );
+  position: fixed;
+  left: 60%;
+  top: 30%;
+  /*height: 68%;*/
+  width: 38.5%;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+#addMore{
+  background-color: orange;
+  clear: both;
+}
+
+h2, h3, h4{
+  color: #000;
+  font-size: 1.4321em;
+}
+
+footer{}
+
+.job{
+  padding: 0.8em;
+  margin: 1em 0.1em;
+  background-color: rgba(255,255,255,0.85);
+  overflow-y: visible;
+  border-radius: 3px;
+  float: left;
+}
+
+.jobList{
+  padding: 1em;
+  background-color: grey;
+}
+
+.topBar{
+  margin-bottom: 2em;
+}
+
+.tt-suggestion,.tt-menu{
+  background-color: white;
+}
+
+p{
+  color: #000;
+  letter-spacing: initial;
+  text-align: justify;
+  text-justify: inter-word;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+#jobListings > li > div > p{
+  width: 50%;
+}
+
+p button{
+  color: #333;
+}
+
+a{
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+a.user-link{
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+ul{}
+li{
+  list-style: none;
+}
+
+input{
+  color: black;
+  font-size: 1.2em;
+}
+
+input[type="text"], textarea{
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  margin: 0 0.3em;
+}
+
+button, input[type="button"], input[type="submit"]{
+  width: 7em;
+  padding: 0.7em;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus, textarea:focus, button:focus{
+  box-shadow: 0px 0px 3px black;
+}
+
+button:focus{
+  box-shadow: 0px 0px 5px black;
+}
+
+.features ul{
+  list-style-type: square;
+}
+
+.row{
+  margin-left: 0;
+}
+
+@media all and (min-width: 992px){
+  #filters{}
+}
+@media all and (max-width: 991px){
+  #filters{
+    padding: 3.21em;
+  }
+}

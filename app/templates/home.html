@@ -9,12 +9,10 @@
     </p>
   </div>
   <div>
-    <ul id="jobListings">
+    <ul id="hList">
       <li ng-repeat="h in hData track by $index">
         <div>
-          <h3 class="leadGeneration" data-spy='scroll' data-target="popover">
-            {{h.title}}
-          </h3>
+          <h3>{{h.title}}</h3>
           <p>{{h.text}}</p>
         </div>
       </li>

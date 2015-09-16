@@ -1,5 +1,3 @@
-wdApp.controller('IndexController', ['$scope', '$state', function($scope, $state) {}])
-
 wdApp.controller('HomeController', ['$scope', '$state', function($scope, $state) {
   document.title = 'waking dream - home'; //set the page title
 

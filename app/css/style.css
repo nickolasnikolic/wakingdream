@@ -8,7 +8,7 @@ html{}
 
 body{
   background: transparent;
-  background-image: url(../images/dog.jpg);
+  background-image: url(../images/dream1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: lighten;
@@ -43,22 +43,6 @@ header div{
   margin: 0;
 }
 
-#popover{
-  background-color: rgba( 50, 50, 50, 0.5 );
-  position: fixed;
-  left: 60%;
-  top: 30%;
-  /*height: 68%;*/
-  width: 38.5%;
-  border-radius: 5px;
-  padding: 1em;
-}
-
-#addMore{
-  background-color: orange;
-  clear: both;
-}
-
 h2, h3, h4{
   color: #000;
   font-size: 1.4321em;
@@ -75,7 +59,7 @@ footer{}
   float: left;
 }
 
-.jobList{
+.hList{
   padding: 1em;
   background-color: grey;
 }
@@ -95,9 +79,6 @@ p{
   text-justify: inter-word;
   text-overflow: ellipsis;
   word-break: keep-all;
-}
-#jobListings > li > div > p{
-  width: 50%;
 }
 
 p button{

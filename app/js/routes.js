@@ -1,4 +1,4 @@
-var wdApp = angular.module('gresumeApp', ['ui.router', 'ngSanitize', 'angular.filter'])
+var wdApp = angular.module('wdApp', ['ui.router', 'ngSanitize', 'angular.filter'])
   .config(['$stateProvider',
     function($stateProvider) {
       $stateProvider

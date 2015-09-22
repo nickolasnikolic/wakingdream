@@ -1,12 +1,12 @@
 
 *{
-  font-family: questa, serif;
-  letter-spacing: 0.1234em;
+
 }
 
 html{}
 
 body{
+  font-family: 'questaregular', serif;
   background: transparent;
   background-image: url(../images/dream1.jpg);
   background-size: cover;
@@ -17,7 +17,7 @@ body{
 }
 
 header{
-  margin: 0 auto;
+  margin: 0;
 }
 
 header p{
@@ -31,6 +31,7 @@ header div{
 }
 
 #logo{
+  font-family: 'minimobold', sans-serif;
   position: relative;
   left: 0.8em;
   top: -0.35em;

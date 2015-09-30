@@ -11,10 +11,23 @@ h1{
     padding: 0.1em;
 }
 
+h2,h3,h4,h5,h6{
+    font-family: 'nexa_scriptsemi_bold';
+    font-size: 3em;
+    margin: 1em 0px;
+}
+
+p{
+    font-family: 'nexa_scriptregular';
+    text-indent: 3em;
+}
+
 section{
     padding: 1em;
     width: 43em;
 }
+
+
 
 aside{
     position: fixed;

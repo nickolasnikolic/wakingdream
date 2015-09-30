@@ -19,3 +19,12 @@ aside{
     width: 160px;
     height: 600px;
 }
+
+form{
+    margin-top: 1em;
+}
+
+input,textarea{
+    margin-top: 1em;
+    width: 12em;
+}

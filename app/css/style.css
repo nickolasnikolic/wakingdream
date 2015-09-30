@@ -29,6 +29,7 @@ form{
 }
 
 input,textarea{
+    font-family: 'nexa_scriptregular';
     margin-top: 1em;
     width: 43em;
 }

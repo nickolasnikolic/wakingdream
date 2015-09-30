@@ -41,9 +41,12 @@ form{
     margin-top: 1em;
 }
 
-input,textarea{
+input,textarea, button{
     font-family: 'nexa_scriptregular';
     margin-top: 1em;
+}
+
+input,textarea{
     width: 43em;
 }
 

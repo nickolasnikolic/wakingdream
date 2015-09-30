@@ -1,5 +1,5 @@
-<div  id="homeContainer">
-  <div class="col-lg-9 topBar">
+<section>
+  <div>
     <p>
       <form>
         <p><input type="text" id="hallucinationTitle" placeholder="the title of your dream"></input></p>
@@ -11,23 +11,11 @@
   <div>
     <ul id="hList">
       <li ng-repeat="h in hData track by $index">
-        <div>
+        <article>
           <h3>{{h.title}}</h3>
           <p>{{h.text}}</p>
-        </div>
+        </article>
       </li>
     </ul>
   </div>
-</div>
-<aside class="col-lg-3 col-lg-pull-3">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- see.through.glass -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-6458298285737303"
-       data-ad-slot="8449774206"
-       data-ad-format="auto"></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</aside>
+</section>

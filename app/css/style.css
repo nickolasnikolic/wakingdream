@@ -50,6 +50,16 @@ input,textarea{
     width: 43em;
 }
 
+.color1{
+    color: aquamarine;
+}
+.color2{
+    color: burlywood;
+}
+.color3{
+    color: aquamarine;
+}
+
 @media screen and (max-device-width: 1081px){
     input,textarea{
         width: 12em;

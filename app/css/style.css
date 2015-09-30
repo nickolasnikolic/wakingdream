@@ -2,6 +2,7 @@ body{
     font-family: 'nexa_scriptlight';
     font-size: larger;
     padding: 1em;
+    background-image: url(../images/paint.jpeg);
 }
 
 h1{

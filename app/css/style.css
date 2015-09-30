@@ -31,3 +31,15 @@ input,textarea{
     margin-top: 1em;
     width: 43em;
 }
+
+@media screen and (max-device-width: 1081px){
+    input,textarea{
+        width: 12em;
+    }
+    section{
+        width: auto;
+    }
+    aside{
+        position: static;
+    }
+}

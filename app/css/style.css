@@ -13,7 +13,7 @@ h1{
 
 h2,h3,h4,h5,h6{
     font-family: 'nexa_scriptsemi_bold';
-    font-size: 3em;
+    font-size: 1.8em;
     margin: 1em 0px;
 }
 
@@ -61,6 +61,12 @@ input,textarea{
 }
 
 @media screen and (max-device-width: 1081px){
+    h1{
+        font-size: 2em;
+    }
+    h2,h3,h4,h5,h6{
+        font-size: 1.2em;
+    }
     input,textarea{
         width: 12em;
     }
